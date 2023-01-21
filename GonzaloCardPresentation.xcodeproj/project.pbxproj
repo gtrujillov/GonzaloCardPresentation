@@ -11,6 +11,7 @@
 		8FBE410C297C197D00AA9C7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE410B297C197D00AA9C7A /* ContentView.swift */; };
 		8FBE410E297C197F00AA9C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBE410D297C197F00AA9C7A /* Assets.xcassets */; };
 		8FBE4111297C197F00AA9C7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBE4110297C197F00AA9C7A /* Preview Assets.xcassets */; };
+		8FBE4119297C1A9400AA9C7A /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FBE4118297C1A9400AA9C7A /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8FBE410B297C197D00AA9C7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8FBE410D297C197F00AA9C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FBE4110297C197F00AA9C7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8FBE4118297C1A9400AA9C7A /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				8FBE4109297C197D00AA9C7A /* GonzaloCardPresentationApp.swift */,
 				8FBE410B297C197D00AA9C7A /* ContentView.swift */,
+				8FBE4118297C1A9400AA9C7A /* Pacifico-Regular.ttf */,
 				8FBE410D297C197F00AA9C7A /* Assets.xcassets */,
 				8FBE410F297C197F00AA9C7A /* Preview Content */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBE4119297C1A9400AA9C7A /* Pacifico-Regular.ttf in Resources */,
 				8FBE4111297C197F00AA9C7A /* Preview Assets.xcassets in Resources */,
 				8FBE410E297C197F00AA9C7A /* Assets.xcassets in Resources */,
 			);
@@ -269,6 +273,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GonzaloCardPresentation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GonzaloCardPresentation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +302,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GonzaloCardPresentation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GonzaloCardPresentation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
